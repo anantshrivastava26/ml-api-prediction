@@ -75,7 +75,9 @@ POST /predict
 {
   "BFG_CO": 25.698,
   "BFG_CO2": 25.309,
-  ...{sample data provided in repo}
+  ...
+sample data provided in repo
+...
   "GCP_Chloride_ppm": 1622.0
 }
 ````
@@ -148,6 +150,4 @@ This project is for educational and internal deployment purposes.
 **Anant Shrivastava**
 🔗 [LinkedIn](https://https://www.linkedin.com/in/anant-shrivastava-b02795251/)
 
----
 
-```

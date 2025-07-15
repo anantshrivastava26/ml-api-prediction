@@ -75,7 +75,7 @@ POST /predict
 {
   "BFG_CO": 25.698,
   "BFG_CO2": 25.309,
-  ...
+  ...{sample data provided in repo}
   "GCP_Chloride_ppm": 1622.0
 }
 ````
@@ -146,12 +146,8 @@ This project is for educational and internal deployment purposes.
 ## 👨‍💻 Author
 
 **Anant Shrivastava**
-📧 [anant@example.com](mailto:anant@example.com)
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+🔗 [LinkedIn](https://https://www.linkedin.com/in/anant-shrivastava-b02795251/)
 
 ---
 
-```
-
-Let me know if you want it in `.md` file format, or want to publish this on GitHub with Docker build instructions and ECS screenshots!
 ```

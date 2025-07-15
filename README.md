@@ -1,4 +1,4 @@
-```markdown
+
 # TOTAL_FLOW Prediction API (Random Forest)
 
 This project is a **Machine Learning API** built using **FastAPI** and deployed using **Docker** on **AWS ECS**. It predicts the `TOTAL_FLOW` in a gas scrubber system based on several real-time parameters.

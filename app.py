@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 from fastapi.responses import JSONResponse
-
+import uvicorn ##ASGI
 # Load model and features
 model = joblib.load("rf_model.pkl")
 expected_features = joblib.load("rf_features.pkl")
@@ -79,3 +79,6 @@ def predict(input_data: FlowInput):
             "predicted_TOTAL_FLOW": prediction
         }
     )
+if __name__ == "__app__":
+    uvicorn.run(app, host="127.0.0.1:8000", port=8000)
+# To run the server, use the command: uvicorn app:app --reload
